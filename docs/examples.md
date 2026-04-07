@@ -1,85 +1,18 @@
-# Markdown Extension Examples
+# 👌Examples
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+Here are some examples of PaperBeam's document formatting capabilities.
 
-## Syntax Highlighting
+## 📄 PaperBeam Message
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
+PaperBeam messages are a special type of content that can be used to display cool information to users.
 
-**Input**
-
-````md
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-````
-
-**Output**
-
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
+```html
+<div class="container">
+  <h1>{{ paper_msg }}</h1>
+</div>
 ```
 
-## Custom Containers
+## 😎 PaperBeam Emojis
 
-**Input**
+PaperBeam supports a wide range of emojis that can be used to enhance the user experience.
 
-```md
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-```
-
-**Output**
-
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-
-## More
-
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).

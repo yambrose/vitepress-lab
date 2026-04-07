@@ -11,7 +11,7 @@ hero:
     alt: PaperBeam logo
   actions:
     - theme: brand
-      text: About Product
+      text: Product description
       link: /about
     - theme: alt
       text: Examples
@@ -21,10 +21,13 @@ hero:
       link: /references
 
 features:
-  - title: 🏛️ Adaptive Columns
-    details: Start with sensible defaults and publish docs in minutes.
-  - title: 👟 Fast to Load
-    details: This thing loads fast, even on 3G mobile
-  - title: 🫂 Large Community
-    details: Used in over two households and counting.
+  - title: Adaptive Columns
+    icon: "🦜"
+    details: Dynamically adjust column count and width based on screen size and content type
+  - title: Editorial Curation
+    icon: "🍓"
+    details: Seamlessly merge media and text that emphasize readability and design
+  - title: Large Community
+    icon: "🇦🇺"
+    details: Used in over 60 countries worldwide
 ---
