@@ -11,11 +11,14 @@ hero:
     alt: PaperBeam logo
   actions:
     - theme: brand
-      text: Get Started
-      link: /markdown-examples
+      text: About Product
+      link: /about
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Examples
+      link: /examples
+    - theme: alt
+      text: References
+      link: /references
 
 features:
   - title: 🏛️ Adaptive Columns
