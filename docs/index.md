@@ -4,22 +4,24 @@ layout: home
 
 hero:
   name: "PaperBeam"
-  text: "Elevate Your Content Flow"
-  tagline: My great project tagline
+  text: "Now with Flextext"
+  tagline: "Elevate Your Content Flow"
+  image:
+    src: /logo.png
+    alt: PaperBeam logo
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Get Started
       link: /markdown-examples
     - theme: alt
       text: API Examples
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 🏛️ Adaptive Columns
+    details: Start with sensible defaults and publish docs in minutes.
+  - title: 👟 Fast to Load
+    details: This thing loads fast, even on 3G mobile
+  - title: 🫂 Large Community
+    details: Used in over two households and counting.
 ---
-
