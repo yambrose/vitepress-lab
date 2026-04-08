@@ -8,9 +8,9 @@ export default defineConfig({
     siteTitle: "PaperBeam",
     logo: "/logo.png",
     nav: [
-      { text: 'Home', link: '/' },
       { text: 'About', link: '/about' },
       { text: 'Examples', link: '/examples' },
+      { text: 'References', link: '/references' },
       {
         text: 'Learning',
         activeMatch: '^/learning/',
