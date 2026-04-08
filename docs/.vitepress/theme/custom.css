@@ -1,0 +1,24 @@
+/* Primary home hero action button */
+.VPHomeHero .actions .action:first-child .VPButton.brand {
+  background-color: #13b38e;
+  border-color: #13b38e;
+}
+
+.VPHomeHero .actions .action:first-child .VPButton.brand:hover {
+  background-color: #13b38e;
+  border-color: #13b38e;
+  opacity: 0.92;
+}
+
+/* Secondary home hero action button (grey default, pink on hover) */
+.VPHomeHero .actions .action:nth-child(2) .VPButton.alt {
+  background-color: var(--vp-c-default-3);
+  border-color: var(--vp-c-default-3);
+}
+
+.VPHomeHero .actions .action:nth-child(2) .VPButton.alt:hover {
+  background-color: #ee9bdd;
+  border-color: #ee9bdd;
+  color: var(--vp-c-white);
+}
+

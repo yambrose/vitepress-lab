@@ -20,6 +20,25 @@ export default defineConfig({
           { text: 'Advanced', link: '/learning/learn-advanced' }
         ]
       },
+    ],
+    sidebar: [
+      {
+        text: 'Overview',
+        items: [
+          { text: 'Home', link: '/' },
+          { text: 'About', link: '/about' },
+          { text: 'Examples', link: '/examples' },
+          { text: 'References', link: '/references' }
+        ]
+      },
+      {
+        text: 'Learning',
+        items: [
+          { text: 'Overview', link: '/learning/learn-main' },
+          { text: 'Basics', link: '/learning/learn-basics' },
+          { text: 'Advanced', link: '/learning/learn-advanced' }
+        ]
+      }
     ]
   }
 });
