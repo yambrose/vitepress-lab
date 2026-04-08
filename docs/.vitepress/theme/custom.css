@@ -2,10 +2,11 @@
 :root {
     --paperbeam-primary: #13b38e;
     --paperbeam-secondary: #ee9bdd;
-    --vp-home-hero-image-background-image: linear-gradient(120deg, var(--paperbeam-primary) 0%, #e330bf 100%);
+    --paperbeam-bright: #e330bf;
+    --vp-home-hero-image-background-image: linear-gradient(120deg, var(--paperbeam-primary) 0%, var(--paperbeam-bright) 100%);
     --vp-home-hero-image-filter: blur(44px);
     --vp-home-hero-name-color: transparent;
-    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, var(--paperbeam-primary) 30%, var(--paperbeam-secondary));
+    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, var(--paperbeam-primary) 50%, var(--paperbeam-bright) 60%);
 
     --vp-button-brand-bg: var(--paperbeam-primary);
     --vp-button-brand-hover-border: var(--paperbeam-primary);
