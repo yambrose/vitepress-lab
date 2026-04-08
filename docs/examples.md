@@ -6,6 +6,7 @@ Here are some examples of PaperBeam's document formatting capabilities.
 
 PaperBeam messages are a special type of content that can be used to display cool information to users.
 
+_html code snippet_
 ```html
 <div class="container">
   <h1>{{ paper_msg }}</h1>

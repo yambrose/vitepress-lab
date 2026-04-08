@@ -3,6 +3,8 @@
 ::: tip
 The following are references who contributed to PaperBeam:
 :::
+
+_javascript code snippet_
 ```js
 const references = [
     {
