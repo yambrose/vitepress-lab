@@ -15,12 +15,10 @@
     --vp-button-alt-hover-border: var(--paperbeam-secondary);
     --vp-button-alt-hover-bg: var(--paperbeam-secondary);
 
-    /* Navbar surfaces */
     --vp-nav-bg-color: rgba(255, 255, 255, 0.86);
     --vp-nav-screen-bg-color: #ffffff;
     --vp-local-nav-bg-color: #ffffff;
 
-    /* Brand accents used by nav active/hover states */
     --vp-c-brand-1: var(--paperbeam-primary);
     --vp-c-brand-2: var(--paperbeam-secondary);
     --vp-c-brand-3: var(--paperbeam-bright);
@@ -28,9 +26,5 @@
 
 }
 
-.dark {
-    --vp-nav-bg-color: rgba(15, 23, 42, 0.86);
-    --vp-nav-screen-bg-color: #0f172a;
-    --vp-local-nav-bg-color: #0f172a;
-}
+
 
