@@ -11,7 +11,8 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about' },
       { text: 'Examples', link: '/examples' },
-      { text: 'References', link: '/references' }
+      { text: 'References', link: '/references' },
+      { text: 'Learning', link: '/learning/learn-main' },
     ]
   }
 });

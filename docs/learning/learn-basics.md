@@ -20,5 +20,5 @@ This page documents the baseline rules I follow before a draft is considered pub
 If a section grows past 200 words, I split it into a dedicated page.
 :::
 
-Back to [Learn Happy](/learning/learn-happy).
+Back to [Learn](/learning/learn-main).
 
